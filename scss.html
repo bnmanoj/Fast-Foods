@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FAST FOODS</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="main/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img
+            src="fast food company.jpg"
+            alt="Company Logo"
+            id="header-img"
+        /></a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#varieties" class="nav-link">VARIETIES</a>
+          <a href="#our-service" class="nav-link">OUR SERVICE</a>
+          <a href="#benefits" class="nav-link">MAKING PROCESS</a>
+          <a href="#disadvantages" class="nav-link">Health Effects</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="fast food.jpg" alt="Fast Food" />
+        </div>
+        <div class="eye-grabber">
+          <h1>Delicious Food</h1>
+          <h2>
+           Indias first ever delicious and tasty food in one point.
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Buy Now
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+            We pride ourselves on serving delicious, high-quality fast food that satisfies cravings with every bite. At  we prioritize freshness and flavor, using only the finest ingredients to create a mouthwatering experience. Our commitment to quick service ensures you can enjoy your favorite meals without the wait. Join us for a taste adventure that combines convenience and culinary excellence. Welcome to a world where fast doesn't mean compromising on taste!"
+          </p>
+
+          <img src="fast food logo.png" alt="about-us"  />
+        </div>
+      </section>
+      <section id="varieties" class="sec-padding">
+        <h3 class="section-heading">VARIETIES</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="pizza.jpg" alt="pizza" />
+            <h4>Pizza</h4>
+            <p>
+we craft perfection in every slice. Our hand-tossed dough, premium ingredients, and secret sauce recipe create an irresistible symphony of flavors. Whether you're a traditionalist or crave bold toppings, our pizzas are made to delight. Join us for a pizza experience that's fast, fresh, and undeniably delicious. Your satisfaction is our main topping!
+            </p>
+            
+          </div>
+          <div class="tile">
+            <img
+              src="burgerjpg.jpg"
+              alt="Burger"
+            />
+            <h4>Burger</h4>
+            <p>
+              we're passionate about burgers that go beyond expectations. Sink your teeth into juicy, flame-grilled patties made from the finest beef, nestled in our freshly baked buns. Our commitment to quality ingredients and mouthwatering flavors defines every bite. Join us for a burger adventure that's fast, flavorful, and unforgettable. Welcome to the home of satisfaction between the buns!"
+            </p>
+          </div>
+          <div class="tile">
+            <img src="potato chips.jpg" alt="Potato chips" />
+            <h4>Potato Chips</h4>
+            <p>
+              we turn spuds into crunchy perfection. Our potato chips are thinly sliced and kettle-cooked to golden perfection, delivering a satisfying crunch in every bite. With a variety of bold flavors, we take snacking to a whole new level. Indulge in our crispy creations, where quality meets irresistible taste. Experience the ultimate potato chip satisfaction with us!"
+            </p>
+          </div>
+      </section>
+      <section id="benefits" class="sec-padding">
+        <h3 class="section-heading">MAKING PROCESS</h3>
+        <div class="sec-content-div flexible">
+          <iframe width="560" height="315" src="https://www.youtube.com/watch?v=bGUoqx26vpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </section>
+
+
+<section id="Health Effects" class="sec-padding">
+        <h3 class="section-heading">HeathEffects</h3>
+        <div class="sec-content-div flexible">
+         <h1> Disadvantages of health Issues</h1> 
+<p>
+1)Fast food is often high in unhealthy fats, contributing to weight gain and increasing the risk of cardiovascular diseases.
+2)Excessive consumption can lead to nutrient deficiencies, as fast food tends to lack essential vitamins and minerals.
+3)Fast food is linked to an increased risk of type 2 diabetes due to its high sugar content.
+4)Regular intake may contribute to poor digestion and gastrointestinal issues, such as indigestion and acid reflux.
+5)Fast food packaging contributes to environmental pollution, with single-use containers and wrappers adding to the global waste problem.
+</p>
+        </div>
+      </section>
+
+
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>To make an order or just to know more contact us :</h6>
+          <form
+            id="form"
+            action="https://www.freecodecamp.com/email-submit"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      © 2024 Fast foods. All rights reserved. 
+      For inquiries, contact us at info@fastfoods.com
+      All content is protected by copyright laws.
+    </footer>
+  </body>
+</html>
